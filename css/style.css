@@ -1,7 +1,12 @@
-@media screen and (max-width: 1199px) {
-  .wrapper {
-    background-image: linear-gradient(50deg, #6e00ff 0, #bb00ff 100%);
-  }
+/* Extend Bootstrap classes */
+.py-6 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Layout */
+body {
+  font-family: "Nunito", sans-serif;
 }
 
 .pp-btn {
@@ -14,9 +19,27 @@
   font-size: 0.9rem;
 }
 
+@media screen and (max-width: 991px) {
+  .header {
+    background-image: linear-gradient(50deg, #6e00ff 0, #bb00ff 100%);
+  }
+}
+
 .header a {
   color: white;
   text-decoration: none;
+}
+
+.header-illustration {
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1199px) {
+  .header-illustration {
+    background-image: linear-gradient(50deg, #6e00ff 0, #bb00ff 100%);
+  }
 }
 
 .header-logo {
@@ -51,4 +74,21 @@
 
 .flag {
   width: 1.2rem;
+}
+
+.call-to-action {
+  display: inline-block;
+  background-color: #273444;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.jumbo h1 {
+  font-size: 3.5rem;
+}
+.jumbo h2 {
+  font-size: 2.5rem;
+}
+.jumbo p {
+  font-size: 1.2rem;
 }

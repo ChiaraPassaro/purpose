@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -22,8 +28,104 @@
   <body>
     <div class="wrapper">
       <header class="header">
+        <!-- header content -->
+        <div class="container">
+          <div class="row header-top py-3">
+            <div class="col-6">
+              <span class="d-none d-lg-inline">Purpose - Website UI Kit</span>
+              <a class="ms-2" href="#"
+                ><img class="flag" src="./img/us.svg" />
+                <span class="d-none d-lg-inline">United States</span>
+                <span class="d-inline d-lg-none">EN</span>
+              </a>
+            </div>
+            <div class="col-6">
+              <ul class="list-inline text-end">
+                <li class="ms-2 list-inline-item"><a href="#">Support</a></li>
+                <li class="ms-2 list-inline-item">
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </li>
+                <li class="ms-2 list-inline-item">
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+                <li class="ms-2 list-inline-item">
+                  <a href="#"><i class="fa-solid fa-circle-user"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row header-bottom d-flex align-items-center">
+            <div class="col-6 d-flex align-items-center">
+              <img class="header-logo me-5" src="./img/white.png" />
+              <ul class="list-inline mb-0 d-none d-lg-block">
+                <li class="list-inline-item"><a href="#">Overview</a></li>
+                <li class="list-inline-item ms-3">
+                  <a href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
+                </li>
+                <li class="list-inline-item ms-3">
+                  <a href="#">Section <i class="fa-solid fa-angle-down"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 text-end">
+              <ul class="list-inline text-end mb-0 d-none d-lg-block">
+                <li class="list-inline-item">
+                  <a href="#">Docs <i class="fa-solid fa-angle-down"></i></a>
+                </li>
+                <li class="list-inline-item ms-3">
+                  <a href="#"
+                    >What's new <i class="fa-solid fa-angle-down"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item ms-3">
+                  <button class="btn btn-light pp-btn">
+                    <i class="fa-solid fa-cart-shopping"></i> Purchase Now
+                  </button>
+                </li>
+              </ul>
+              <button class="btn px-0 d-inline-block d-lg-none text-white">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+            </div>
+          </div>
+          <div class="row jumbo py-6">
+            <div class="col-12 col-lg-5 offset-lg-1 text-center text-lg-start">
+              <div class="call-to-action d-none d-lg-block mb-4">
+                <span class="rounded-pill text-bg-danger px-3 py-1 me-2"
+                  >Hot</span
+                >
+                Dark mode, awesome shortcode library and more.
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+              <h1>See it. Love it</h1>
+              <h2>Purpose Website UI Kit</h2>
+              <p>
+                A unique and beautiful collection of UI elements that are all
+                flexible and modular. A complete and customizable solution to
+                building the website of your dreams.
+              </p>
+              <div class="buttons">
+                <button
+                  type="button"
+                  class="btn btn-light pp-btn px-4 py-2 me-4"
+                >
+                  Page Examples
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-light pp-btn px-4 py-2 d-none d-lg-inline-block"
+                >
+                  <i class="fa-regular fa-file me-2"></i> More Features
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /header content -->
         <!-- header image -->
-        <div class="container-fluid position-absolute">
+        <div
+          class="container-fluid position-absolute header-illustration d-none d-lg-block"
+        >
           <div class="row">
             <div class="offset-6 col-6">
               <div class="header-image text-end">
@@ -1303,69 +1405,6 @@
           </div>
         </div>
         <!-- /header image -->
-
-        <!-- header content -->
-        <div class="container">
-          <div class="row header-top py-3">
-            <div class="col-6">
-              <span class="d-none d-lg-inline">Purpose - Website UI Kit</span>
-              <a class="ms-2" href="#"
-                ><img class="flag" src="./img/us.svg" />
-                <span class="d-none d-lg-inline">United States</span>
-                <span class="d-inline d-lg-none">EN</span>
-              </a>
-            </div>
-            <div class="col-6">
-              <ul class="list-inline text-end">
-                <li class="ms-2 list-inline-item"><a href="#">Support</a></li>
-                <li class="ms-2 list-inline-item">
-                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                </li>
-                <li class="ms-2 list-inline-item">
-                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                </li>
-                <li class="ms-2 list-inline-item">
-                  <a href="#"><i class="fa-solid fa-circle-user"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="row header-bottom d-flex align-items-center">
-            <div class="col-6 d-flex align-items-center">
-              <img class="header-logo me-5" src="./img/white.png" />
-              <ul class="list-inline mb-0 d-none d-lg-block">
-                <li class="list-inline-item"><a href="#">Overview</a></li>
-                <li class="list-inline-item ms-3">
-                  <a href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
-                </li>
-                <li class="list-inline-item ms-3">
-                  <a href="#">Section <i class="fa-solid fa-angle-down"></i></a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-6 text-end">
-              <ul class="list-inline text-end mb-0 d-none d-lg-block">
-                <li class="list-inline-item">
-                  <a href="#">Docs <i class="fa-solid fa-angle-down"></i></a>
-                </li>
-                <li class="list-inline-item ms-3">
-                  <a href="#"
-                    >What's new <i class="fa-solid fa-angle-down"></i
-                  ></a>
-                </li>
-                <li class="list-inline-item ms-3">
-                  <button class="btn btn-light pp-btn">
-                    <i class="fa-solid fa-cart-shopping"></i> Purchase Now
-                  </button>
-                </li>
-              </ul>
-              <button class="btn px-0 d-inline-block d-lg-none text-white">
-                <i class="fa-solid fa-bars"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- /header content -->
       </header>
       <!-- Background color -->
       <div class="background-color d-none d-xl-block"></div>
